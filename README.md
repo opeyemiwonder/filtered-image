@@ -17,6 +17,8 @@ You'll need to create a new node server. Open a new terminal within the project 
 1. Initialize a new project: `npm i`
 2. run the development server with `npm run dev`
 
+http://localhost:8082/filteredimage?image_url=https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/169F9/production/_126356629_raducanu.jpg
+
 ### Create a new endpoint in the server.ts file
 
 The starter code has a task for you to complete an endpoint in `./src/server.ts` which uses query parameter to download an image from a public URL, filter the image, and return the result.
@@ -48,3 +50,4 @@ Prevent requests without valid authentication headers.
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
+
